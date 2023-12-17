@@ -12,6 +12,7 @@ module.exports = {
       liteOrange : "#FFD580",
       gr:"#4A4A4A",
       purple:"#6508CE",
+      litePurple:"#f1eaf9",
       purpleshade:"#8032D8",
       white:"white",
       gray:"#6E6E6E",
