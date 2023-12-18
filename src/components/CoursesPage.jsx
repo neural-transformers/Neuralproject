@@ -27,7 +27,7 @@ const CoursesPage = () => {
         <Card/>
         <Card/>
         <Card/>
-    </div>
+      </div>
     </div>
   )
 }

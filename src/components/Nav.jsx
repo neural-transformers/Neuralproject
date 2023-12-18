@@ -3,6 +3,7 @@ import React from 'react'
 import Logo from '../assets/logo.png'
 import Neural from '../assets/Neural.png'
 import Button from './Button';
+import { Link } from 'react-router-dom'
 
 
 const Nav = () => {
@@ -37,10 +38,10 @@ const Nav = () => {
             {
                 links.map((link)=>(
                     <li key={link.name} className='md:ml-8 text-md justify-center mr-4 md:my-0 my-7'>
-                        <a href={link.link} className={`font-regular ${
+                        <Link to={link.link} className={`font-regular ${
                   currentActivePage === link.name ? 'text-purple' : 'text-black'
                 } hover:text-purple focus:text-purple duration-500`}
-                onClick={() => setCurrentActivePage(link.name)}>{link.name}</a>
+                onClick={() => setCurrentActivePage(link.name)}>{link.name}</Link>
                     </li>
                 ))
             }
