@@ -1,7 +1,7 @@
 import React from 'react'
 import Homelogo from '../assets/homeillus.png'
 import Logo from '../assets/logo.png'
-import Card from './Card'
+import Card from '../components/Card'
 
 const Home = () => {
   return (
