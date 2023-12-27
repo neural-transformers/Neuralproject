@@ -60,7 +60,7 @@ export default function Services(props) {
 
       
       </div>
-      <Footer/>
+    
       
       </>
       
