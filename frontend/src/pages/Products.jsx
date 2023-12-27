@@ -27,7 +27,7 @@ const articles = [
 function Products(props) {
   return (
    <>
-   <Nav/>
+
    <div className='container'>
     <div className='grid grid-cols-1 place-items-center'>
        <h1 className="text-[#FA5119] text-xl font-bold m-20">Products</h1>
@@ -41,7 +41,7 @@ function Products(props) {
        })
     }
     </div>
-   <Footer/>
+
    
    
    </>
