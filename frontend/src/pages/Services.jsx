@@ -38,7 +38,6 @@ const articles = [{
 export default function Services(props) {
    return (
       <>
-      <Nav/>
       <div className='container'>
          <div className='m-4 grid grid-cols-1 place-items-center'>
             <h1 className="text-[#FA5119] text-xl font-bold m-20">Services</h1>
