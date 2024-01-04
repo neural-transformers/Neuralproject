@@ -1,7 +1,7 @@
 import React from 'react'
-import OCR from '../assests/OCR_solutions.png'
-import DOC from '../assests/Document_Summarizer.png'
-import ChatBotDevelopment from '../assests/chatbot_development.png'
+import OCR from '../assets/OCR_solutions.png'
+import DOC from '../assets/Document_Summarizer.png'
+import ChatBotDevelopment from '../assets/chatbot_development.png'
 import Card from '../components/CardProducts'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
@@ -29,8 +29,8 @@ function Products(props) {
    <>
 
    <div className='container'>
-    <div className='grid grid-cols-1 place-items-center'>
-       <h1 className="text-[#FA5119] text-xl font-bold m-20">Products</h1>
+    <div className='m-4 grid grid-cols-1 place-items-center'>
+    <h1 className="text-orange font-bold md:text-3xl leading-tight pt-10 m-20">Products</h1>
     </div>
     {
        articles.map((elements) => {

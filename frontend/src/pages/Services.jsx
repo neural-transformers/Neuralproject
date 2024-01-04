@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from '../components/CardProducts'
-import DataScience from '../assests/Data_Science_Consulting.png'
-import ChatBotDevelopment from '../assests/chatbot_development.png'
-import QASystem from '../assests/Q&ASystems.png'
-import OCR from '../assests/OCR_solutions.png'
-import DOC from '../assests/Document_Summarizer.png'
+import DataScience from '../assets/Data_Science_Consulting.png'
+import ChatBotDevelopment from '../assets/chatbot_development.png'
+import QASystem from '../assets/Q&ASystems.png'
+import OCR from '../assets/OCR_solutions.png'
+import DOC from '../assets/Document_Summarizer.png'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 
@@ -40,7 +40,7 @@ export default function Services(props) {
       <>
       <div className='container'>
          <div className='m-4 grid grid-cols-1 place-items-center'>
-            <h1 className="text-[#FA5119] text-xl font-bold m-20">Services</h1>
+            <h1 className="text-orange font-bold md:text-3xl text-2xl leading-tight pt-10 m-20">Services</h1>
          </div>
          {
             articles.map((elements) => {
